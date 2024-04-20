@@ -42,6 +42,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.3.0</version>
                 <configuration>
+                          <classifier>supplemental</classifier>
                     <archive>
                         <manifest>
                             <mainClass>com.mycompany.app.App</mainClass>
